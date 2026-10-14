@@ -1,0 +1,10 @@
+name: 功能建议 Feature request
+description: 提出使用需求或改进建议 Suggest an improvement
+title: "[建议] "
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 希望解决的问题和使用场景 Your need and use case
+    validations:
+      required: true

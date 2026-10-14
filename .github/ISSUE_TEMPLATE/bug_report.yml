@@ -1,0 +1,32 @@
+name: 问题反馈 Bug report
+description: 报告视频处理、导出、认证或订阅问题 Report a problem
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "Issue 公开可见。请勿上传私人视频、密钥、Apple 账户密码或付款信息。私密问题请联系 yifannir@outlook.com。Issues are public; use email for private matters."
+  - type: input
+    id: environment
+    attributes:
+      label: 设备、系统与 App 版本 Device, OS and app version
+      placeholder: iPhone 17 / iOS 27 / SpectrumMark 1.0.1
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤与实际结果 Steps and actual result
+      description: 请包含错误提示 Include any error message.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果 Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: video
+    attributes:
+      label: 视频参数 Video details
+      description: 时长、分辨率、帧率、SDR/HDR Duration, resolution, frame rate and SDR/HDR
